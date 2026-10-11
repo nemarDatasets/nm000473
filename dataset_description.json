@@ -1,0 +1,55 @@
+{
+  "Name": "Qin2023 action observation ECoG: re-referenced region-of-interest electrocorticography during observation of predictable and unpredictable action movies",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Chaoyi Qin",
+    "Frederic Michon",
+    "Yoshiyuki Onuki",
+    "Yohei Ishishita",
+    "Keisuke Otani",
+    "Kensuke Kawai",
+    "Pascal Fries",
+    "Valeria Gazzola",
+    "Christian Keysers"
+  ],
+  "HowToAcknowledge": "Cite Qin C, Michon F, Onuki Y, Ishishita Y, Otani K, Kawai K, Fries P, Gazzola V, Keysers C (2023). Predictability alters information flow during action observation in human electrocorticographic activity. Cell Reports 42(12):113432, doi:10.1016/j.celrep.2023.113432, and the OSF release doi:10.17605/OSF.IO/4XJG7.",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1016/j.celrep.2023.113432",
+    "https://doi.org/10.1101/2022.12.13.519734",
+    "https://doi.org/10.17605/OSF.IO/4XJG7"
+  ],
+  "Keywords": [
+    "ECoG",
+    "electrocorticography",
+    "action observation",
+    "predictive coding",
+    "beta",
+    "gamma",
+    "epilepsy",
+    "Japan"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.17605/OSF.IO/4XJG7",
+      "URL": "https://osf.io/4xjg7/",
+      "Version": "OSF node 4xjg7 (files as downloaded 2026-10-11; sha256 in sourcedata/osf-4xjg7/DEIDENTIFICATION_MANIFEST.tsv)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "o5c_A1_convert_gen152.py",
+      "Description": "Repackaging of the FieldTrip rerefData structs (continuous, µV) into BrainVision float32 with camera-change events, ACPC and MNI positions of the ROI channels, and the stimulus movies/annotations. Code in code/."
+    }
+  ],
+  "EthicsApprovals": [
+    "Collected under the source study's approval (see the article, doi:10.1016/j.celrep.2023.113432)."
+  ],
+  "Funding": [
+    "Japan Society for the Promotion of Science JP17H04305",
+    "Japan Society for the Promotion of Science JP20H03794",
+    "NWO 452-14-015",
+    "NWO 453-15-009"
+  ]
+}

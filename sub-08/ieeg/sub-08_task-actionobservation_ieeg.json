@@ -1,0 +1,26 @@
+{
+  "TaskName": "actionobservation",
+  "TaskDescription": "Passive observation of movies of sequential actions (three runs, RunA/RunB/RunC; 24 movies M01..M22 / S01..S22 listed in Stimuli/StimulusList_*.txt) while ECoG was recorded; the article contrasts predictable and unpredictable action sequences. Camera-change times within the movies (BORIS annotations in stimuli/) are the released events.",
+  "Instructions": "n/a (see article)",
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": {
+    "AuthorsPreprocessing": {
+      "Description": "Release file '<Patient>LARER_rerefDataInROI.mat': FieldTrip data re-referenced by the authors (montage in cfg.previous; scheme not stated in the release, see article) and restricted to the region-of-interest channels. Values written unchanged (µV per hdr.chanunit)."
+    }
+  },
+  "HardwareFilters": "n/a",
+  "iEEGReference": "re-referenced by the authors (release file name LARER_reref; see article); original reference not stated in the release",
+  "iEEGPlacementScheme": "subdural ECoG grids/strips (labels A.., B..); only the region-of-interest channels of the article are released. Contact positions for all implanted contacts (elec.chanpos, ACPC mm) are in sourcedata; the ROI channels have ACPC and MNI positions in electrodes.tsv.",
+  "ElectricalStimulation": false,
+  "Manufacturer": "n/a",
+  "SamplingFrequency": 1000.0,
+  "RecordingDuration": 3428.0,
+  "RecordingType": "continuous",
+  "ECOGChannelCount": 16,
+  "SEEGChannelCount": 0,
+  "DBSChannelCount": 0,
+  "EEGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0
+}

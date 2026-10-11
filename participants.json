@@ -1,0 +1,11 @@
+{
+  "age": {
+    "Description": "not in the release"
+  },
+  "sex": {
+    "Description": "not in the release"
+  },
+  "source_id": {
+    "Description": "patient number in the release file names"
+  }
+}

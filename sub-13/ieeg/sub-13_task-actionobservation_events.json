@@ -1,0 +1,32 @@
+{
+  "trial_type": {
+    "Description": "camera_change: a camera-change trigger of the action movie (camInfo row)",
+    "Levels": {
+      "camera_change": "camera change in the movie (BORIS 'Trigger' annotation)"
+    }
+  },
+  "sample": {
+    "Description": "camInfo column 4 minus 1 (0-based sample of the trigger in the ECoG file; interpretation inferred from the value range 1..nSamples)"
+  },
+  "movie_id": {
+    "Description": "camInfo column 2: movie identifier (M01..M22, S01..S22; csv/avi in stimuli/)"
+  },
+  "movie_number": {
+    "Description": "camInfo column 3: movie number 1..24 (as released)"
+  },
+  "movie_type_flag": {
+    "Description": "camInfo column 1: 1 for S-movies, 0 for M-movies in every row (checked in code/conversion_report.json); meaning of S/M per the article (predictable vs unpredictable sequences)"
+  },
+  "interval_before": {
+    "Description": "camInfo column 5 (s); matches the interval from the previous camera change (inferred)",
+    "Units": "s"
+  },
+  "interval_after": {
+    "Description": "camInfo column 6 (s); matches the interval to the next camera change (inferred)",
+    "Units": "s"
+  },
+  "movie_duration": {
+    "Description": "camInfo column 7: total length of the movie (equals 'Total length' in the BORIS csv; checked in code/conversion_report.json)",
+    "Units": "s"
+  }
+}

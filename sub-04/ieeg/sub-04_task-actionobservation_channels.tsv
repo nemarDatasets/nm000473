@@ -1,0 +1,10 @@
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	reference	group	status	status_description	description
+A26	ECOG	µV	n/a	n/a	1000.0	n/a	A	good	n/a	ROI channel of the article (release rerefData.label)
+A27	ECOG	µV	n/a	n/a	1000.0	n/a	A	good	n/a	ROI channel of the article (release rerefData.label)
+A32	ECOG	µV	n/a	n/a	1000.0	n/a	A	good	n/a	ROI channel of the article (release rerefData.label)
+B24	ECOG	µV	n/a	n/a	1000.0	n/a	B	good	n/a	ROI channel of the article (release rerefData.label)
+B25	ECOG	µV	n/a	n/a	1000.0	n/a	B	good	n/a	ROI channel of the article (release rerefData.label)
+B26	ECOG	µV	n/a	n/a	1000.0	n/a	B	good	n/a	ROI channel of the article (release rerefData.label)
+B27	ECOG	µV	n/a	n/a	1000.0	n/a	B	good	n/a	ROI channel of the article (release rerefData.label)
+B33	ECOG	µV	n/a	n/a	1000.0	n/a	B	good	n/a	ROI channel of the article (release rerefData.label)
+B55	ECOG	µV	n/a	n/a	1000.0	n/a	B	good	n/a	ROI channel of the article (release rerefData.label)

@@ -1,0 +1,6 @@
+{
+  "iEEGCoordinateSystem": "ACPC",
+  "iEEGCoordinateUnits": "mm",
+  "iEEGCoordinateSystemDescription": "FieldTrip elec.chanpos with elec.coordsys = 'acpc' (subject's ACPC-aligned anatomical space, mm) as released; positions for all 106 implanted contacts are in sourcedata (elec.label/chanpos).",
+  "iEEGCoordinateProcessingDescription": "values copied from elec.chanpos for the ROI channels (matched by label)"
+}

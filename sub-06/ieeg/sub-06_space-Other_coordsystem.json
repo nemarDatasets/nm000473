@@ -1,0 +1,6 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "mm",
+  "iEEGCoordinateSystemDescription": "MNI coordinates from FieldTrip elec.elecposMNI (one row per ROI channel, taken in the order of rerefData.label). The MNI template version is not stated in the release (hence 'Other'); normalisation method in the article.",
+  "iEEGCoordinateProcessingDescription": "values copied from elec.elecposMNI"
+}

@@ -1,0 +1,122 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Chaoyi Qin": {},
+    "Frederic Michon": {
+      "orcid": "0000-0003-1289-2133"
+    },
+    "Yoshiyuki Onuki": {
+      "orcid": "0000-0002-5013-2795"
+    },
+    "Yohei Ishishita": {},
+    "Keisuke Otani": {},
+    "Kensuke Kawai": {},
+    "Pascal Fries": {},
+    "Valeria Gazzola": {
+      "orcid": "0000-0003-0324-0619"
+    },
+    "Christian Keysers": {
+      "orcid": "0000-0002-2845-5467"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.17605/OSF.IO/4XJG7",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1016/j.celrep.2023.113432",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2022.12.13.519734",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000473",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000473",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Japan Society for the Promotion of Science",
+      "award_number": "JP17H04305"
+    },
+    {
+      "funder_name": "Japan Society for the Promotion of Science",
+      "award_number": "JP20H03794"
+    },
+    {
+      "funder_name": "NWO",
+      "award_number": "452-14-015"
+    },
+    {
+      "funder_name": "NWO",
+      "award_number": "453-15-009"
+    }
+  ],
+  "title": "Qin2023 action observation ECoG: re-referenced region-of-interest electrocorticography during observation of predictable and unpredictable action movies",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "11.21 GB (49 files)"
+  ],
+  "formats": [
+    ".avi",
+    ".boris",
+    ".csv",
+    ".eeg",
+    ".eps",
+    ".fig",
+    ".json",
+    ".mat",
+    ".png",
+    ".py",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "Re-referenced region-of-interest electrocorticography (ECoG) recorded continuously at 1000 Hz from 10 epilepsy patients (8.70 h in total) while they watched movies of sequential actions that were either predictable or unpredictable. The derivative dataset repackages the authors' OSF release of FieldTrip structures into BIDS iEEG format, with camera-change events, ACPC and MNI electrode positions, and the stimulus movies and annotations. It supports investigation of predictive coding and information flow during action observation.",
+  "methods_description": "Continuous ECoG from epilepsy patients watching movies of sequential actions was re-referenced by the original authors and restricted to region-of-interest channels. FieldTrip data were converted to BrainVision float32 format. Events are camera-change triggers in the movies, and electrode positions are given in ACPC and MNI coordinates.",
+  "keywords": [
+    {
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+    },
+    {
+      "term": "ECoG"
+    },
+    {
+      "term": "action observation"
+    },
+    {
+      "term": "predictive coding"
+    },
+    {
+      "term": "beta and gamma oscillations"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    }
+  ],
+  "source_hash": "8d3e68e9ab2d569f3820fbe093e4a3b73a3cdcbe2fba41b00313bf78ab7d3825"
+}

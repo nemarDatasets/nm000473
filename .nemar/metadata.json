@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Qin2023 action observation ECoG: re-referenced region-of-interest electrocorticography during observation of predictable and unpredictable action movies",
+  "description": "Continuous electrocorticography (ECoG) from 10 epilepsy patients (8.70 h total, 1000 Hz) recorded while they watched movies of sequential actions with predictable and unpredictable camera changes. The derivative release contains re-referenced region-of-interest channels converted to BrainVision format, with camera-change events, ACPC and MNI electrode positions, and the stimulus movies and annotations. It supports analysis of predictive coding and information flow in beta and gamma activity during action observation.",
+  "methods_description": "Intracranial ECoG was recorded at 1000 Hz from epilepsy patients watching three movie runs of sequential actions. The authors' FieldTrip re-referenced ROI data (in µV) were repackaged into BrainVision float32 files. Camera-change events came from the released event tables and were checked against BORIS annotations. Electrode positions are given in ACPC and MNI coordinates.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Chaoyi Qin": {},
     "Frederic Michon": {
@@ -20,6 +25,30 @@
       "orcid": "0000-0002-2845-5467"
     }
   },
+  "keywords": [
+    {
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+    },
+    {
+      "term": "ECoG"
+    },
+    {
+      "term": "action observation"
+    },
+    {
+      "term": "predictive coding"
+    },
+    {
+      "term": "beta and gamma oscillations"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.17605/OSF.IO/4XJG7",
@@ -65,14 +94,11 @@
       "award_number": "453-15-009"
     }
   ],
-  "title": "Qin2023 action observation ECoG: re-referenced region-of-interest electrocorticography during observation of predictable and unpredictable action movies",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "11.21 GB (49 files)"
   ],
@@ -85,38 +111,14 @@
     ".fig",
     ".json",
     ".mat",
+    ".md",
     ".png",
     ".py",
     ".tsv",
     ".txt",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "Re-referenced region-of-interest electrocorticography (ECoG) recorded continuously at 1000 Hz from 10 epilepsy patients (8.70 h in total) while they watched movies of sequential actions that were either predictable or unpredictable. The derivative dataset repackages the authors' OSF release of FieldTrip structures into BIDS iEEG format, with camera-change events, ACPC and MNI electrode positions, and the stimulus movies and annotations. It supports investigation of predictive coding and information flow during action observation.",
-  "methods_description": "Continuous ECoG from epilepsy patients watching movies of sequential actions was re-referenced by the original authors and restricted to region-of-interest channels. FieldTrip data were converted to BrainVision float32 format. Events are camera-change triggers in the movies, and electrode positions are given in ACPC and MNI coordinates.",
-  "keywords": [
-    {
-      "term": "Electrocorticography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
-    },
-    {
-      "term": "ECoG"
-    },
-    {
-      "term": "action observation"
-    },
-    {
-      "term": "predictive coding"
-    },
-    {
-      "term": "beta and gamma oscillations"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    }
-  ],
-  "source_hash": "8d3e68e9ab2d569f3820fbe093e4a3b73a3cdcbe2fba41b00313bf78ab7d3825"
+  "source_hash": "bebaefee40c0ba13a982ed40248fe8912861e1246cd7a19e7703df8fc0920e47"
 }

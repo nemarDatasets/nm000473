@@ -1,0 +1,24 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000473-blue)](https://doi.org/10.82901/nemar.nm000473)
+
+# Qin et al. 2023, "Predictability alters information flow during action observation in human ECoG": ROI channels
+
+Continuous electrocorticography (10 patients, 8.70 h, 1000 Hz) recorded while epilepsy patients watched movies of
+sequential actions, released by the authors on OSF (doi:10.17605/OSF.IO/4XJG7, CC-BY-4.0) as FieldTrip structures of the
+re-referenced region-of-interest channels used in the article, plus the event tables and stimuli.
+
+## What is converted (DatasetType derivative)
+- `sub-XX/ieeg/sub-XX_task-actionobservation_ieeg.vhdr`: `rerefData.trial{1}` of `Patient<N>LARER_rerefDataInROI.mat` (µV per
+  `hdr.chanunit`, values unchanged, float32), channels = the released ROI contacts (names as released, e.g. A26, B55). The signals
+  are re-referenced by the authors (scheme in the article; not stated in the release) and restricted to ROI channels, hence derivative.
+- `events.tsv`: the released `camInfo` table of `Patient<N>_eventdata.mat` (camera-change triggers in the movies): sample, movie id,
+  movie number, the S/M flag and the intervals before/after. Column meanings were inferred from the values and checked against the
+  BORIS annotation files (see `events.json` and `code/conversion_report.json`).
+- `electrodes.tsv`: ACPC positions (`elec.chanpos`, FieldTrip `coordsys` 'acpc') and MNI positions (`elec.elecposMNI`, template
+  not stated) for the ROI channels. Positions of all implanted contacts are in the sourcedata MAT files.
+- `stimuli/`: the three movie runs (avi), the BORIS camera-change annotations per movie (csv), the stimulus lists and the BORIS
+  project file, as released. `sourcedata/osf-4xjg7/`: all release files unchanged.
+- Age and sex are not in the release. The patient numbers of the release (1,2,3,4,6,8,9,11,12,13) are kept as subject numbers.
+
+## Privacy
+The release holds patient numbers only. FieldTrip `cfg` fields in the MAT files contain the authors' analysis paths/usernames and
+analysis timestamps (2022-2023), not patient data.

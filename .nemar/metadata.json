@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Qin2023 action observation ECoG: re-referenced region-of-interest electrocorticography during observation of predictable and unpredictable action movies",
-  "description": "Continuous electrocorticography (ECoG) from 10 epilepsy patients (8.70 h total, 1000 Hz) recorded while they watched movies of sequential actions with predictable and unpredictable camera changes. The derivative release contains re-referenced region-of-interest channels converted to BrainVision format, with camera-change events, ACPC and MNI electrode positions, and the stimulus movies and annotations. It supports analysis of predictive coding and information flow in beta and gamma activity during action observation.",
-  "methods_description": "Intracranial ECoG was recorded at 1000 Hz from epilepsy patients watching three movie runs of sequential actions. The authors' FieldTrip re-referenced ROI data (in µV) were repackaged into BrainVision float32 files. Camera-change events came from the released event tables and were checked against BORIS annotations. Electrode positions are given in ACPC and MNI coordinates.",
+  "title": "Qin-2023-predictability-10.1016/j.celrep.2023.113432",
+  "description": "Continuous electrocorticography (ECoG) recorded at 1000 Hz from 10 epilepsy patients (8.70 h in total) while they watched movies of sequential actions. The derivative dataset repackages the authors' re-referenced region-of-interest channels, with camera-change events, ACPC and MNI electrode positions, and the stimulus movies and annotations. It supports investigation of how predictability alters information flow during action observation, in the context of predictive coding.",
+  "methods_description": "Intracranial ECoG was recorded from epilepsy patients watching three movie runs of sequential actions. FieldTrip re-referenced ROI-channel structures released on OSF were converted to BrainVision float32 files. Events were derived from camera-change triggers, and electrode positions are given in ACPC and MNI coordinates.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -41,12 +41,10 @@
       "term": "predictive coding"
     },
     {
-      "term": "beta and gamma oscillations"
+      "term": "epilepsy"
     },
     {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+      "term": "beta and gamma oscillations"
     }
   ],
   "related_identifiers": [
@@ -120,5 +118,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "bebaefee40c0ba13a982ed40248fe8912861e1246cd7a19e7703df8fc0920e47"
+  "source_hash": "0f40832d80d61d4c447ba02929fb6e42288dd8a95607cbbed18e0469cc4827e7"
 }

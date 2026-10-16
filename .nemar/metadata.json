@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Qin2023 action observation ECoG: re-referenced region-of-interest electrocorticography during observation of predictable and unpredictable action movies",
-  "description": "Continuous electrocorticography (ECoG) recorded at 1000 Hz from 10 epilepsy patients (8.70 h in total) while they watched movies of sequential actions. The derivative dataset repackages the authors' re-referenced region-of-interest channels, with camera-change events, ACPC and MNI electrode positions, and the stimulus movies and annotations. It supports investigation of how predictability alters information flow during action observation, in the context of predictive coding.",
-  "methods_description": "Intracranial ECoG was recorded from epilepsy patients watching three movie runs of sequential actions. FieldTrip re-referenced ROI-channel structures released on OSF were converted to BrainVision float32 files. Events were derived from camera-change triggers, and electrode positions are given in ACPC and MNI coordinates.",
+  "description": "Re-referenced region-of-interest electrocorticography (ECoG) recorded from 10 epilepsy patients (8.70 h, 1000 Hz) while they watched movies of sequential actions that were either predictable or unpredictable. The derivative dataset repackages the authors' FieldTrip structures into BIDS iEEG format with camera-change events, ACPC and MNI electrode positions, and the stimulus movies and annotations. It supports analysis of how predictability alters information flow during action observation.",
+  "methods_description": "Continuous ECoG was recorded at 1000 Hz in epilepsy patients watching movies of sequential actions. The authors re-referenced the signals and restricted them to region-of-interest channels. These were converted from FieldTrip structures to BrainVision float32 files. Events are camera-change triggers in the movies, annotated with BORIS.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -41,7 +41,9 @@
       "term": "predictive coding"
     },
     {
-      "term": "epilepsy"
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     },
     {
       "term": "beta and gamma oscillations"

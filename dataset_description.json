@@ -1,5 +1,5 @@
 {
-  "Name": "Qin-2023-predictability-10.1016/j.celrep.2023.113432",
+  "Name": "Qin2023 action observation ECoG: re-referenced region-of-interest electrocorticography during observation of predictable and unpredictable action movies",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC-BY-4.0",
@@ -53,5 +53,5 @@
     "NWO 453-15-009"
   ],
   "DatasetDOI": "10.82901/nemar.nm000473",
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }

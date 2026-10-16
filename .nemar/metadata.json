@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Qin-2023-predictability-10.1016/j.celrep.2023.113432",
+  "title": "Qin2023 action observation ECoG: re-referenced region-of-interest electrocorticography during observation of predictable and unpredictable action movies",
   "description": "Continuous electrocorticography (ECoG) recorded at 1000 Hz from 10 epilepsy patients (8.70 h in total) while they watched movies of sequential actions. The derivative dataset repackages the authors' re-referenced region-of-interest channels, with camera-change events, ACPC and MNI electrode positions, and the stimulus movies and annotations. It supports investigation of how predictability alters information flow during action observation, in the context of predictive coding.",
   "methods_description": "Intracranial ECoG was recorded from epilepsy patients watching three movie runs of sequential actions. FieldTrip re-referenced ROI-channel structures released on OSF were converted to BrainVision float32 files. Events were derived from camera-change triggers, and electrode positions are given in ACPC and MNI coordinates.",
   "license": "CC-BY-4.0",
@@ -118,5 +118,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "0f40832d80d61d4c447ba02929fb6e42288dd8a95607cbbed18e0469cc4827e7"
+  "source_hash": "2803929eb6063fdc91c98457de992104403d75257067cbd0158a58b4214f5109"
 }
